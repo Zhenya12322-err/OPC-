@@ -1,7 +1,7 @@
 ﻿abstract class Transport
 {
-    public string Name { get; set; }
-    public bool IsBusy { get; set; }
+    public string Name;
+    public bool IsBusy;
 
     public Transport(string name)
     {
